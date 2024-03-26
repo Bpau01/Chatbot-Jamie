@@ -1,0 +1,148 @@
+    body{
+        margin: 0;
+        font-family:monospace;
+        background-color: #f8f6f1
+    }
+    .container{
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.208); 
+        border: 2px solid rgb(92, 92, 92);
+        margin: 10%;
+        margin-top: 0%;
+        background-color: #fff
+    }
+
+    .messages {
+        min-height: 450px;
+        max-height: 450px;
+        overflow-y: auto;
+    }
+
+    .message-container {
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 10px;
+        max-width: 70%;
+        font-size: 15px;
+    }
+
+    .message-container.you {
+        float: right;
+        clear: both;
+        max-width: 40%;
+        overflow-wrap: break-word;
+    }
+
+    .message-container.jamie {
+        float: left;
+        clear: both;
+        max-width: 40%;
+        overflow-wrap: break-word;
+    }
+
+
+    .message-bubble.you {
+        background-color: #d8d2c0cc;
+        border-radius: 7px;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .message-bubble.jamie {
+        background-color: #e6e6e6;
+        border-radius: 7px;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .message-name{
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .message-name.you{
+        text-align: right;
+    }
+
+    .timestamp.you{
+        float: right;
+    }
+
+    .input-container {
+        display: flex;
+    }
+
+    .input-container textarea[type="text"] {
+        flex: 1;
+        margin-right: 10px;
+    }
+
+    .chatbox-container{
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .chatbox-header{
+        background-color: rgb(137, 112, 77);
+        padding: 0.3%;
+        display: flex;
+        align-items: center; /* Align items vertically in the center */
+    }
+    
+    .chatbox-header p{
+        font-size: 25px;
+        padding: 1.5%;
+        margin: 0%;
+        color: white;
+    } 
+
+    .chatbox-header img{
+        width: 50px;
+        padding-left: 1%;
+    }
+
+    .input-container textarea[type="text"] {
+        padding: 20px; 
+        border: 1px solid #ccc;
+        font-size: 15px; 
+        margin: 0;
+        font-family:monospace;
+        word-wrap: break-word ;
+    }
+      
+      .input-container button {
+        width: 100px; 
+        padding: 10px; 
+        border: none; 
+        background-color:  rgb(139, 120, 95);
+        color: #fff; 
+        font-size: 16px; 
+        cursor: pointer; 
+        font-family:monospace
+      }  
+
+      .logo-container {
+        background-color: #ffffff; 
+        margin: 0%;
+        padding: 1%;
+        border-bottom: 3px solid rgb(8, 4, 4);
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+      }
+      
+      .logo-container img {
+        margin-right: 30px; 
+      }
+      
+      .logo-container p {
+        margin: 0; 
+        font-size:30px;
+        font-weight:bold;
+      }
+
+      h1{
+        margin-left: 10%;
+        margin-top: 3%;
+        font-weight:900;
+      }
+      
+
